@@ -10,14 +10,14 @@ namespace MvcApplication1.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Steve App to support claim mgmt program for Touchpoint.";
+            ViewBag.Message = "TouchStone application for claim management for GE Capital and Touchpoint.";
 
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Claim App for Touchpoint";
+            ViewBag.Message = "Demo for setting up on Azure";
 
             return View();
         }
